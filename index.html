@@ -1,40 +1,353 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Kritanu Singh</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+<head lang="en">
+    <meta charset="UTF-8">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Kritanu Singh</h1>
-						<p>Student &nbsp;&bull;&nbsp; Software Engineering &nbsp;&bull;&nbsp; Machine Learning</p>
-						<nav>
-							<ul>
-								<li><a href="https://www.linkedin.com/in/kritanu/" class="icon brands fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-								<li><a href="https://github.com/kritanu" class="icon brands fa-github" target="_blank"><span class="label" >Github</span></a></li>
-								<li><a href="https://www.facebook.com/xxm82" class="icon brands fa-facebook-f" target="_blank" ><span class="label">Facebook</span></a></li>
-								<li><a href="https://www.instagram.com/kritanu_/" class="icon brands fa-instagram" target="_blank" ><span class="label">Instagram</span></a></li>
-								<li><a href="https://steamcommunity.com/id/krit_24/" class="fa fa-gamepad" target="_blank" ><span class="label">Steam</span></a></li>
-								<li><a href="mailto:kritanu82@gmail.com" class="icon solid fa-envelope" target="_blank" ><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+    <!--Page Title-->
+    <title>Kritanu Singh - Portfolio</title>
 
-			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/namari-color.css">
+
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!--End of Preloader-->
+
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+</div>
+
+<div id="wrapper">
+
+    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
+
+                    <!--Logo-->
+                    <div id="logo">
+
+                        <!--Logo that is shown on the banner-->
+                        <img src="images/logo.png" id="banner-logo" alt="Landing Page"/>
+                        <!--End of Banner Logo-->
+
+                        <!--The Logo that is shown on the sticky Navigation Bar-->
+                        <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+                        <!--End of Navigation Logo-->
+
+                    </div>
+                    <!--End of Logo-->
+
+                    <aside>
+
+                        <!--Social Icons in Header-->
+                        <ul class="social-icons">
+                            <li>
+                                <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
+                                    <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Google+" href="http://google.com/+username">
+                                    <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
+                                    <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
+                                    <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="behance" href="http://www.behance.net">
+                                    <i class="fa fa-behance fa-1x"></i><span>Behance</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--End of Social Icons in Header-->
+
+                    </aside>
+
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a href="#banner">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#gallery">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+                            <li>
+                                <a href="#testimonials">Testimonials</a>
+                            </li>
+                            <li>
+                                <a href="#clients">Clients</a>
+                            </li>
+                            <li>
+                                <a href="#pricing">Pricing</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <div id="nav-trigger"><span></span></div>
+                    <nav id="nav-mobile"></nav>
+
+                </div>
+            </div>
+        </div><!--End of Header-->
+
+        <!--Banner Content-->
+        <div id="banner-content" class="row clearfix">
+
+            <div class="col-38">
+
+                <div class="section-heading">
+                    <h1>Kritanu Singh</h1>
+                    <h2 style="font-weight: 600;">TCS Digital - GenAI Developer (AI Practice Team)</h2>
+                    <h2>Previously Research @ Iowa State University, USA. Product @ Myelin Foundry; Edgeneural.AI.</h2>
+                    <h2>GenAI/ ML/ DL/ Data Science Practitioner.</h2>
+                </div>
+
+                <!--Call to Action-->
+                <a href="https://drive.google.com/file/d/1h43s_kXzsdmPGSk1DOeiysj1-G_C_IDI/view?usp=sharing" class="button">Download CV</a>
+                <!--End Call to Action-->
+
+            </div>
+
+        </div><!--End of Row-->
+    </header>
+
+    <!--Main Content Area-->
+    <main id="content">
+
+        <!--Introduction-->
+        <section id="about" class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>SUCCESS</h3>
+                        <h2 class="section-title">EXPERIENCES</h2>
+                        <p class="section-subtitle">Wide variety small scale startups to MNCs, practical applications to research based!</p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="company-logo">
+                        <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Tata_Consultancy_Services_Logo.svg/512px-Tata_Consultancy_Services_Logo.svg.png?20210617123944">
+                        </div>
+                        <!--Icon-->
+                        <!-- <div class="icon">
+                            <i class="fa fa-html5 fa-2x"></i>
+                        </div> -->
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>GenAI Developer</h4>
+                            <p>Spearheaded the creation of GenAI PoCs in six-week sprints for a key customer.</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
+                        <!--Icon-->
+                        <div class="company-logo">
+                        <img src="https://www.myelinfoundry.com/wp-content/uploads/2022/11/Myelin_Logo_B_2x-200x64.png">
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Product Engineer Intern</h4>
+                            <p>Engineered a robust music classification system from scratch for 6 moods/ 8 languages for one of the largest car manufacturers in India.</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                        <!--Icon-->
+                        <div class="company-logo">
+                            <img src="https://image.pitchbook.com/JOqZOMGRJxnjiljnDbPmpQBMv611717419783696_200x200">   
+                            </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>AI Engineer</h4>
+                            <p>Redesigned the platform to automate one-click ML deployments and seamlessly autoscale using Google GKE.</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                        <!--Icon-->
+                        <div class="company-logo">
+                        <img src="https://logos-world.net/wp-content/uploads/2022/01/Iowa-State-University-Logo-700x394.png">   
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Research Intern</h4>
+                            <p>Experimented with image augmentations and filters for edge detection to facilitate early detection of crop infestation.</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <!--End of Introduction-->
+
+        <!--Testimonials-->
+        <aside id="testimonials" class="scrollto text-center" data-enllax-ratio=".2">
+
+            <div class="row clearfix">
+
+                <div class="section-heading">
+                    <h3>EXPERIMENTAL</h3>
+                    <h2 class="section-title">PROJECTS</h2>
+                </div>
+
+                <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <div class="icon">
+                    <a href="https://github.com/kritanu/valo360"><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                    <h5>P2P gaming account buy/sell platform with CRUD functionalities completely hosted on AWS infrastructure.</h5>
+                    <footer style="font-weight: 600;">valo360.in</footer>
+                </blockquote>
+                <!-- End of Testimonial-->
+
+                <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <div class="icon">
+                        <a href="https://github.com/kritanu/Assess.edU"><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                    <h5>An all-in-one MCQ sheet grader application for exam assessment automation tailored for rural education.</h5>
+                    <footer style="font-weight: 600;">National Finalist - NEC Hackathon</footer>
+                </blockquote>
+                <!-- End of Testimonial-->
+
+                <!--User Testimonial-->
+                <blockquote class="col-3 testimonial classic">
+                    <div class="icon">
+                        <a href="https://github.com/kritanu/SmartDepot"><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+                    <h5>An intelligent warehouse system including supply chain mgmt using blockchain, intruder detection using cv and climate sensing using IoT.</h5>
+                        <footer style="font-weight: 600;">National Finalist - Honeywell Hackathon</footer>
+                </blockquote>
+                <!-- End of Testimonial-->
+
+            </div>
+
+        </aside>
+        <!--End of Testimonials-->
+
+   
+
+    <!--Footer-->
+    <footer id="landing-footer" class="clearfix">
+        <div class="row clearfix">
+
+            <p id="copyright" class="col-2">Kritanu Singh - 2024</a></p>
+
+            <!--Social Icons in Footer-->
+            <ul class="col-2 social-icons">
+                <li>
+                    <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
+                        <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" title="Google+" href="http://google.com/+username">
+                        <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
+                        <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
+                        <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" title="behance" href="http://www.behance.net">
+                        <i class="fa fa-behance fa-1x"></i><span>Behance</span>
+                    </a>
+                </li>
+            </ul>
+            <!--End of Social Icons in Footer-->
+        </div>
+    </footer>
+    <!--End of Footer-->
+
+</div>
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.stickyNavbar.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+
+
+</body>
 </html>
